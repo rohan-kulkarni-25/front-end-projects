@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  text-align: center;
+  font-size: 4vmax;
+  font-weight: 900;
+  color: white;
+  text-shadow: 4px 4px black;
+}
+
+.page--section {
+  width: 98vw;
+  height: fit-content;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock--box {
+  height: 30vw;
+  width: 30vw;
+  background-image: url(../images/circle-cropped.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 4px 4px 32px 32px yellow;
+  animation: box 4s infinite;
+}
+
+@keyframes box {
+  0% {
+    box-shadow: 2px 2px 10px 10px #fceabb;
+  }
+  25% {
+    box-shadow: 3px 3px 16px 16px #f8b500;
+  }
+  50% {
+    box-shadow: 4px 4px 32px 32px #f87000;
+  }
+  75% {
+    box-shadow: 3px 3px 16px 16px #f8b500;
+  }
+  100% {
+    box-shadow: 2px 2px 10px 10px #fceabb;
+  }
+}
+
+#hour--hand,
+#min--hand,
+#sec--hand {
+  position: absolute;
+  background-color: black;
+  border-radius: 12px;
+  transform-origin: bottom;
+}
+
+#hour--hand {
+  height: 23%;
+  width: 1.5%;
+  left: 50%;
+  top: 26%;
+  border-radius: 75%;
+}
+
+#min--hand {
+  height: 30%;
+  width: 1%;
+  left: 50.3%;
+  top: 20%;
+  border-radius: 200%;
+}
+
+#sec--hand {
+  height: 30%;
+  background-color: black;
+  width: 0.2%;
+  left: 50.5%;
+  top: 20%;
+  position: relative;
+}
+
+.round--dot {
+  background-color: red;
+  height: 1vmax;
+  width: 1vmax;
+  left: 50%;
+  top: 20%;
+  border-radius: 50%;
+  display: block;
+  opacity: 1;
+  position: absolute;
+  top: 0vmax;
+  left: -0.4vmax;
+}
+
+@media only screen and (max-width: 800px) {
+  .page--section {
+    padding: 0;
+  }
+  #clock--box {
+    height: 60vw;
+    width: 60vw;
+    background-image: url(../images/circle-cropped.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 4px 4px 32px 32px yellow;
+    animation: box 4s infinite;
+  }
+}
