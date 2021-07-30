@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(255, 187, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  /* padding:5vmin; */
+}
+
+p{
+  margin: 0;
+  text-align: center;
+}
+
+img{
+  width:15vmin;
+}
+
+.container{
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color:aliceblue;
+  padding: 10vmin;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vmin;
+  max-width: 60vmin;
+  min-height: 60vmin; 
+ animation-name: rotate;
+ animation-iteration-count: 1;
+ animation-duration: 3s;
+ 
+}
+
+@keyframes rotate {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+.container p:nth-child(3){
+  margin: 2vmin;
+  font-size: 2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color:greenyellow;
+padding:2vmin;
+}
+
+label{
+  display: block;
+  margin: 2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding:1vmin;
+
+}
+
+input{
+  font-size:4vmin; cursor: pointer;
+  width: 10vmin;  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button{
+  font-size:4vmin;
+  padding:2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color:white;
+}
+
+button:hover{
+  font-size:4vmin;
+  padding:2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color:white;
+  transform: scale();
+}

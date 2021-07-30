@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="password.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>PASSWORD GENERATOR</title>
+</head>
+<body>
+
+<div class="container" id="containerdata">
+  <p>PASSWORD GENERATOR <img src="password.png"></img></p>
+  <form>
+    <label >Password Length :<input type="numbers" id="passlength"></label>
+    <label>Capital Alphabet :<input type="checkbox"  value="yes" id="capital"></label>
+    <label>Small Alphabet :<input type="checkbox" value="yes" id="small"></label>
+    <label>Numbers<input type="checkbox"  value="yes" id="numbers"></label>
+  </form>
+
+  <button type="submit" onclick="generatepass()">Generate Password</button>
+
+  <!-- <p>PASSWORD GENERATOR <img src="password.png"></img></p>
+<p>Password Generated</p>
+<p>fhfherughiuhguehru</p>
+  <button type="submit" onclick="generateanotherpass()">Generate Another Password</button> -->
+</div>
+  <script src="index.js"></script>
+</body>
+</html>
