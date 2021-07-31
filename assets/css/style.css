@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(64, 166, 255);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.829);
+  padding: 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin: 2vmin;
+  padding-bottom: 2vmin;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
+  border-bottom: 5px solid orange;
+}
+
+.navbar {
+  margin-top: 2vmin;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
+  border-bottom: 5px solid orange;
+}
+
+.navbar p {
+  font-size: 3vmin;
+  padding: 2vmin;
+}
+
+header img {
+  margin-top: 2vmin;
+  /* width: 55%; */
+  /* height: 60vmin; */
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
+  animation-name: transformheader;
+  animation-duration: 1s;
+}
+
+@keyframes transformheader {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.navbar p:first-child {
+  font-size: 5vmin;
+  padding: 2vmin;
+}
+
+.navbar p:nth-child(2) {
+  font-size: 5vmin;
+  position: absolute;
+  right: 2vmin;
+  align-items: center;
+  padding: 2vmin;
+}
+
+.container {
+  height: fit-content;
+  padding: 2vmin;
+  margin: 2vmin;
+  background-color: rgba(255, 255, 255, 0.829);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid orange;
+}
+
+.project--box {
+  width: 25%;
+min-width: 60vmin;
+  height: 50vmin;
+  margin: 2vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
+  cursor: pointer;
+
+
+}
+
+.project--box:hover{
+  animation-name: rotatecard;
+  animation-duration: 1s;
+}
+
+.project--box p:first-child {
+  font-size: 5vmin;
+  background-color: white;
+  padding: 2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.project--box p:nth-child(2) {
+  background-color: white;
+  padding: 2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 5vmin;
+}
+
+.project--box a:nth-child(2):hover {
+  background-color: white;
+  padding: 2vmin;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+@keyframes rotatecard {
+  from {
+    transform:rotateY(0);
+  }
+  to {
+    /* transform: scale(1); */
+    transform:rotateY(360deg);
+  }
+}
+
+
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 2vmin;
+}
