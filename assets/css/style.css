@@ -118,8 +118,9 @@ min-width: 60vmin;
   border: 1px solid black;
 }
 
-.project--box p:nth-child(2) {
+.project--box a:nth-child(2) {
   background-color: white;
+  text-emphasis: none;
   padding: 2vmin;
   border-radius: 5px;
   border: 1px solid black;
