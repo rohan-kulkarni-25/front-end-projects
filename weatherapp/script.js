@@ -4,7 +4,7 @@ function getCityName(city) {
 
   document.getElementById('app').innerHTML = '';
 
-fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=3b0ea15b9f2e1f07e3da6d57add9f7a9`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=3b0ea15b9f2e1f07e3da6d57add9f7a9`)
   .then(response => response.json())
   .then(data => {
 
