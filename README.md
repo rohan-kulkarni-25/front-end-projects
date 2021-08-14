@@ -18,6 +18,7 @@
 <li>Clock ✔️</li>
 <li>Password Generator ✔️</li>
 <li>Calculator ✔️</li>
+  <li>Omnifood Landing Page ✔️</li>
 </ol>
 </h3>
 <p>Have any idea ? 💡 Feel free to open issue I will be glad to create one and add in my list</p> 
