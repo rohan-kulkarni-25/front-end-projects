@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+.section--main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#quiz--box {
+  /* min-width: 50%; */
+  width: 40rem;
+  /* height: 20rem; */
+}
+
+.centerbox {
+  display: flex;
+  flex-direction: column;
+}
+
+#quiz--box--data {
+  box-shadow: 5rem 5rem 5rem hsla(0, 0%, 50%, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 2.4rem;
+  border-radius: 9px 9px 0px 0px;
+}
+#quiz--box--data label {
+  line-height: 2;
+}
+
+button {
+  background-color: #007fff;
+  border: 0px solid white;
+  color: white;
+  height: 5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  border-radius: 0px 0px 9px 9px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0065ca;
+}
+
+label input {
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.progressbar {
+  height: 1.5rem;
+  width: 25rem;
+  border-radius: 100rem;
+  border: 2px solid black;
+}
+.results h3 {
+  margin: 1rem;
+}
+.results h2 {
+  font-size: 7.2rem;
+  margin: 1rem;
+}
+.progressbar p {
+  margin: 0;
+  background-color: #3acf2f;
+  width: 0rem;
+  height: 1.5rem;
+  border-radius: 100rem;
+}
+
+.results {
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+header {
+  text-align: center;
+  padding: 1rem;
+  font-size: 4.8rem;
+  background-color: #007fff;
+  color: #fff;
+  font-weight: 700;
+}
+header img {
+  height: 4.8rem;
+}
+
+@media only screen and (max-width: 37.5rem) {
+  html {
+    font-size: 50%;
+    font-family: "Inter", sans-serif;
+  }
+  button {
+    background-color: #007fff;
+    border: 0px solid white;
+    color: white;
+    height: 5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 0px 0px 9px 9px;
+    cursor: pointer;
+    margin: 0;
+  }
+  #quiz--box--data {
+    box-shadow: 5rem 5rem 5rem hsla(0, 0%, 50%, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0;
+    font-size: 2.4rem;
+    border-radius: 9px 9px 0px 0px;
+  }
+  .centerbox {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 25rem) {
+  html {
+    font-size: 45%;
+    font-family: "Inter", sans-serif;
+  }
+  body {
+    overflow-y: hidden;
+  }
+  button {
+    background-color: #007fff;
+    border: 0px solid white;
+    color: white;
+    height: 7rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 0px 0px 9px 9px;
+    cursor: pointer;
+    margin: 0;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #007fff;
+  color: #fff;
+  font-weight: 700;
+}
