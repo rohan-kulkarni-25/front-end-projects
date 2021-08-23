@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/media/disc.png" type="image/x-icon">
+  <title>Music Player</title>
+</head>
+
+<body>
+  <section class="section--player">
+    <div class="header">Music Player</div>
+    <div class="player">
+      <div class="music-player--display">
+        <div class="hide" id="message">End of Playlist 🔚 Please Click Previous</div>
+        <img src="assets/media/disc.png" alt="" id="disc-img" class="disc">
+        <p class="song-name" id="name-of-song"></p>
+      </div>
+      <div class="music-player-box">
+        <audio id="audio--track" onplay="playAudio()" onpause="pauseAudio()" src="" controls></audio>
+      </div>
+      <div class="btn--box">
+        <button class="btn prev" onclick="previousTrack()">PREVIOUS</button>
+        <button class="btn next" onclick="nextTrack()">NEXT</button>
+      </div>
+    </div>
+    <div class="footer">Made with &hearts; by Rohan Kulkarni</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
