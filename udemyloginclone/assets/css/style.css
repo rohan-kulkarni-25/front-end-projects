@@ -1,0 +1,212 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.section-header {
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.3);
+}
+
+.navbar {
+  display: flex;
+  padding: 1.2rem;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+
+.navbar img:nth-child(1) {
+  width: 9rem;
+}
+
+.navbar p {
+  font-size: 1.2rem;
+}
+
+.navbar input:nth-child(3) {
+  border-radius: 1000000px;
+  width: 50%;
+  border: 1.4px solid black;
+  height: 4.2rem;
+}
+
+.navbar input:nth-child(3)::placeholder {
+  padding-left: 5rem;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.login {
+  font-weight: 700;
+}
+
+.signup {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  font-weight: 700;
+}
+
+.globe {
+  background-color: white;
+  padding: 0.7rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+  border: 1px solid black;
+}
+
+.section-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  margin-top: 3rem;
+}
+
+.top-section {
+  padding: 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 1px solid gainsboro;
+}
+.middle-section {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.box {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 30rem;
+  height: 2rem;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px hsla(0, 0%, 0%, 0.278);
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #37599c;
+  color: white;
+}
+
+.facebook:hover {
+  background-color: #132c63e0;
+}
+
+.box img {
+  width: 2.5rem;
+}
+
+.google:hover {
+  background-color: rgba(231, 246, 255, 0.2);
+}
+.apple:hover {
+  background-color: rgba(231, 246, 255, 0.2);
+}
+.middle-section .login {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 30rem;
+  height: 2rem;
+  text-align: center;
+  box-shadow: 2px 2px 10px gainsboro;
+  margin: 0.5rem;
+  gap: 1rem;
+  background-color: #a930f5;
+  color: white;
+  text-align: center;
+}
+
+.middle-section .login:hover {
+  background-color: #7018a7;
+}
+
+.email {
+  text-align: left;
+}
+
+.email::placeholder {
+  background-image: url(../media/email.png);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.pass::placeholder {
+  background-image: url(../media/lock.png);
+  background-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1px;
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+.pass {
+  text-align: left;
+}
+
+.forgetpass {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+.forgetpass span {
+  font-weight: 350;
+  color: rgb(140, 0, 255);
+}
+
+.bottom-section {
+  text-align: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.bottom-section span {
+  font-weight: 700;
+  color: #6a34ff;
+  letter-spacing: 0.5px;
+}
+
+.bottom-section span:hover {
+  color: #7018a7;
+}
+
+@media only screen and (max-width: 25rem) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 22rem) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 16rem) {
+  html {
+    font-size: 30%;
+  }
+}
