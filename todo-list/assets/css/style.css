@@ -150,17 +150,37 @@ html {
   html {
     font-size: 100%;
   }
+  .task img {
+    height: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .taskDone img {
+    height: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 32rem) {
   html {
     font-size: 90%;
   }
+  .task img {
+    height: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .taskDone img {
+    height: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 25rem) {
   html {
-    font-size: 62.5%;
+    font-size: 90%;
   }
 
   .section-app {
@@ -171,5 +191,15 @@ html {
     height: 87vh;
     flex-direction: column;
     padding: 2rem;
+  }
+  .task img {
+    height: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .taskDone img {
+    height: 2rem;
+    margin: 1rem;
+    cursor: pointer;
   }
 }
