@@ -1,0 +1,367 @@
+/* LANDING PAGE STYLES */
+
+.section-landing {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85rem;
+  max-height: 85rem;
+  position: relative;
+  width: 100%;
+}
+
+.section-landing .bgimg {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  filter: brightness(40%);
+}
+
+.outer-landing {
+  position: absolute;
+  border: 2px solid white;
+}
+
+.div-landing {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-landing .top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-bottom: 15rem;
+}
+
+.div-landing .top-nav img {
+  width: 20rem;
+  z-index: 1;
+}
+
+.div-landing .top-nav .nav--btn {
+  display: flex;
+  gap: 2rem;
+  z-index: 1;
+}
+
+.center-text {
+  width: 50%;
+  color: #fff;
+  align-self: center;
+  text-align: center;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-text .heading {
+  word-spacing: 1rem;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.center-text .subheading {
+  font-size: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.center-text .formtext {
+  font-size: 1.8rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.center-text .subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.center-text .subscribe input {
+  width: 50rem;
+  height: 6.5rem;
+}
+
+.center-text .subscribe input::placeholder {
+  font-size: 1.6rem;
+  padding: 0 auto;
+}
+
+.center-text .subscribe button {
+  width: 25rem;
+  height: 6.6rem;
+  border: 0px solid;
+  background-color: rgb(230, 1, 1);
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 0px 2px 2px 0px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.center-text .subscribe button:hover {
+  background-color: rgb(240, 3, 3);
+}
+
+/* ENJOY TV STYLES */
+
+.div-enjoytv .imgtv video {
+  left: 7.2em;
+  top: 8.5rem;
+  width: 38.5rem;
+}
+
+/* DOWNLOAD SECTION STYLES */
+
+.boxoverimg {
+  display: flex;
+  border: 2px solid gray;
+  padding: 1rem;
+  border-radius: 9px;
+  position: absolute;
+  bottom: 3rem;
+  left: 9rem;
+  width: 32rem;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.boxoverimg img:nth-child(1) {
+  /* height: 10rem; */
+  height: 8rem;
+}
+.boxoverimg .text {
+  text-align: left;
+  width: 80%;
+  padding-left: 1rem;
+}
+
+.boxoverimg .text p:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.boxoverimg .text p:nth-child(2) {
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  color: blue;
+}
+.boxoverimg img:nth-child(3) {
+  height: 5rem;
+}
+
+/*  EVERYWHERE SECTION STYLES */
+
+.div-everywhere .imgpc video {
+  left: 10em;
+  top: 4.5rem;
+  width: 33rem;
+}
+
+/* CHILD SECTION STYLES */
+
+/* FAQ SECTION STYLES  */
+
+.div-faq {
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.div-faq .text {
+  width: fit-content;
+  margin-bottom: 4rem;
+}
+
+.div-faq .faq-box {
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.faq-box .faq-que {
+  width: 100%;
+  color: #fff;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.faq-box .faq-que p {
+  font-size: 2.6rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.faq-box .faq-que .plus {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.faq-box .faq-ans {
+  width: 100%;
+  padding: 0.8rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  height: fit-content;
+  background-color: #303030;
+  padding-left: 3rem;
+  cursor: pointer;
+}
+
+.faq-box .faq-ans p {
+  margin: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 400;
+}
+
+.div-faq .bottom-form {
+  margin-top: 5rem;
+}
+
+.div-faq .formtext {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.div-faq .subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.div-faq .subscribe input {
+  width: 50rem;
+  height: 6.5rem;
+}
+
+.div-faq .subscribe input::placeholder {
+  font-size: 1.6rem;
+  padding: 0 auto;
+}
+
+.div-faq .subscribe button {
+  width: 25rem;
+  height: 6.6rem;
+  border: 0px solid;
+  background-color: rgb(230, 1, 1);
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 0px 2px 2px 0px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.div-faq .subscribe button:hover {
+  background-color: rgb(240, 3, 3);
+}
+
+/* FOOTER SECTION STYLES  */
+
+.section-footer {
+  padding-top: 5rem;
+  border-top: 1rem solid rgba(128, 128, 128, 0.3);
+  height: 45rem;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-footer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.section-footer .top p {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.section-footer .middle {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section-footer .middle .div1 p {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.section-footer .middle .div2 p {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+.section-footer .middle .div3 p {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+.section-footer .middle .div4 p {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.section-footer .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section-footer .bottom p {
+  font-size: 1.2rem;
+}
+
+.bottom .dropdown {
+  background-color: inherit;
+  background-image: url(../media/1x/outline_language_white_24dp.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1rem;
+  padding: 1rem;
+  color: gray;
+  width: fit-content;
+  padding: 1.5em;
+  padding-left: 5rem;
+  border: 1.5px solid gainsboro;
+  border-radius: 5px;
+}
+
+.lang {
+  width: 15rem;
+  background-color: wheat;
+}
+
+option {
+  background-color: black;
+  color: gray;
+}
+option {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

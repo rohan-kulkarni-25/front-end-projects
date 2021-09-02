@@ -1,0 +1,99 @@
+/* Common STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-color: #000;
+}
+
+.border {
+  border: 2px solid white;
+}
+
+.hide {
+  display: none;
+}
+
+.section {
+  border-top: 1rem solid rgba(128, 128, 128, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-div {
+  min-width: 50rem;
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding: 5rem;
+}
+
+.section-div .text {
+  width: 55rem;
+}
+
+.section-div .text .heading {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.section-div .text .subheading {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.img-box {
+
+position: relative;
+}
+
+.img-box img {
+
+  height: 40rem;
+  z-index: 10;
+
+}
+
+.img-box video {
+  position: absolute;
+}
+
+.section-landing .top-nav .nav--btn .dropdown {
+  background-color: inherit;
+  background-image: url(../media/1x/outline_language_white_24dp.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1rem;
+  padding: 1rem;
+  color: gray;
+  width: fit-content;
+  padding: 0.8em;
+  padding-left: 3.5rem;
+  border: 1.5px solid gainsboro;
+  border-radius: 5px;
+}
+
+.section-landing .top-nav .nav--btn .signin {
+  background-color: red;
+  color: #fff;
+  border: 0px solid;
+  border-radius: 3px;
+
+  padding: 0.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+

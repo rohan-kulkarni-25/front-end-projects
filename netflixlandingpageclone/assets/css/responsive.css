@@ -1,0 +1,196 @@
+/* 1200 px */
+@media only screen and (max-width: 75rem) {
+  html {
+    font-size: 50%;
+  }
+  .center-text {
+    width: 60%;
+  }
+}
+
+/* 950 px  */
+@media only screen and (max-width: 59.3rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .section {
+    border-top: 1rem solid rgba(128, 128, 128, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-div {
+    min-width: 50rem;
+    max-width: 110rem;
+    gap: 1rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .div-download,
+  .div-child {
+    flex-direction: column-reverse;
+  }
+
+  .div-enjoytv .imgtv img {
+    z-index: 10;
+    height: 40rem;
+  }
+
+  .div-faq .faq-box {
+    width: 70rem;
+  }
+
+  .section-footer .middle {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-footer .top p {
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .section-footer .middle .div1 p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .section-footer .middle .div2 p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .section-footer .middle .div3 p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .section-footer .middle .div4 p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .section-footer .bottom p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .center-text {
+    width: 65%;
+  }
+}
+
+/* 700 px */
+@media only screen and (max-width: 46.75rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .section {
+    /* height: 60rem; */
+    border-top: 1rem solid rgba(128, 128, 128, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5rem;
+  }
+
+  .div-enjoytv .imgtv video {
+    left: 8.8em;
+    top: 10.5rem;
+    width: 48.4rem;
+  }
+
+  .div-enjoytv .imgtv img {
+    z-index: 10;
+    height: 50rem;
+  }
+
+  .div-faq .faq-box {
+    width: 60rem;
+  }
+  .center-text {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 34rem) {
+  html {
+    font-size: 40%;
+  }
+
+  .section {
+    /* height: 60rem; */
+    border-top: 1rem solid rgba(128, 128, 128, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5rem;
+  }
+
+  .div-enjoytv .imgtv img {
+    z-index: 10;
+    height: 50rem;
+  }
+}
+
+/* 400 px */
+@media only screen and (max-width: 25rem) {
+  html {
+    font-size: 30%;
+  }
+  .section-footer {
+    padding-top: 10rem;
+  }
+  .dropdown {
+    display: none;
+  }
+}
+
+/* 300 px */
+@media only screen and (max-width: 19rem) {
+  html {
+    font-size: 25%;
+  }
+  .section-footer {
+    padding-top: 20rem;
+  }
+}
+
+/* 250 px */
+@media only screen and (max-width: 15.6rem) {
+  html {
+    font-size: 20%;
+  }
+}
+
+/* 190 px */
+@media only screen and (max-width: 12rem) {
+  html {
+    font-size: 17%;
+  }
+}
+
+/* 150 px */
+@media only screen and (max-width: 10rem) {
+  html {
+    font-size: 15%;
+  }
+}
+
+/* 100 px */
+@media only screen and (max-width: 7rem) {
+  html {
+    font-size: 10%;
+  }
+}
