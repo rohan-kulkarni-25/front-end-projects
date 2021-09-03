@@ -15,12 +15,12 @@
 <p>✔️ ( Represents the project is completed)</p>
 <h3>
 <ol>
-<li>Clock ✔️</li>
-<li>Password Generator ✔️</li>
-<li>Calculator ✔️</li>
-  <li>Omnifood Landing Page ✔️</li>
-  <li>Quiz App ✔️</li>
-  <li>Music Player ✔️</li>
+<li>analog-clock ✔️</li>
+<li>calculator ✔️</li>
+  <li>country-information ✔️</li>
+  <li>musicplayer ✔️</li>
+  <li>netflixlandingpageclone ✔️</li>
+    <li>omnifood-website ✔️</li>
 </ol>
 </h3>
 <p>Have any idea ? 💡 Feel free to open issue I will be glad to create one and add in my list</p> 
