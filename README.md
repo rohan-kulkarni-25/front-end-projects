@@ -23,6 +23,7 @@
     <li>omnifood-website ✔️</li>
       <li>passwordgenerator ✔️</li>
         <li>quizapp ✔️</li>
+          <li>tabs-design ✔️</li>
 </ol>
 </h3>
 <p>Have any idea ? 💡 Feel free to open issue I will be glad to create one and add in my list</p> 
