@@ -1,0 +1,195 @@
+/* COMMON STYLES */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* calendar BOX STYLES */
+.calendarbook {
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation-name: calendarappear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.flex {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backpage {
+  position: absolute;
+  top: -2.5rem;
+  background-color: gainsboro;
+  width: 28rem;
+  height: 20rem;
+  transform: perspective(1000px) rotateX(-30deg) translateY(2rem);
+  transform-origin: bottom;
+  z-index: 2;
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-around;
+  border-radius: 20px;
+  backface-visibility: hidden;
+}
+.backpage p {
+  background-color: white;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgb(8, 0, 0, 0.5);
+}
+
+.statictoppage {
+  position: absolute;
+  top: 0rem;
+  background-color: #4285f4;
+  width: 29rem;
+  height: 20rem;
+
+  transform: perspective(1000px) rotateX(-40deg) translateY(2rem);
+  transform-origin: bottom;
+  z-index: 2;
+  border-radius: 25px 25px 0 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 2px 2px 50px rgb(8, 0, 0, 0.5);
+}
+
+.toppage {
+  position: absolute;
+  top: 1.5rem;
+  background-color: #4285f4;
+  width: 28rem;
+  height: 20rem;
+  border-radius: 25px 25px 0 0;
+  transform: perspective(1000px) rotateX(-40deg) translateY(2rem);
+  transform-origin: bottom;
+  animation-name: rotatecard;
+  animation-duration: 100ms;
+  animation-iteration-count: 30;
+  z-index: 2;
+  transform-style: preserve-3d;
+  /* border-bottom: 2px solid #6fa5fc; */
+  box-shadow: 2px 2px 30px rgba(8, 0, 0, 0.1);
+}
+
+.bottompage {
+  transform-style: preserve-3d;
+  top: 15rem;
+  position: absolute;
+  background-color: #4285f4;
+  width: 29rem;
+  height: 20rem;
+  border-radius: 0 0 25px 25px;
+  transform: perspective(1000px) rotateX(30deg) translateY(6rem);
+  z-index: 1;
+  box-shadow: 2px 2px 50px rgba(8, 0, 0, 0.3);
+}
+.staticbtmpage {
+  transform-style: preserve-3d;
+  top: 15rem;
+  position: absolute;
+  background-color: #4285f4;
+  width: 29rem;
+  height: 20rem;
+  border-radius: 0 0 25px 25px;
+  transform: perspective(800px) rotateX(25deg) translateY(6rem);
+  z-index: 0;
+  box-shadow: 10rem 5rem 80px rgba(8, 0, 0, 0.1);
+}
+
+@keyframes rotatecard {
+  0% {
+    transform: perspective(1000px) rotateX(-45deg);
+    opacity: 100;
+  }
+  80% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+    transform: perspective(1000px) rotateX(-145deg);
+  }
+}
+
+#date {
+  position: absolute;
+  top: 10rem;
+  font-size: 20rem;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes calendarappear {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.brand {
+  position: absolute;
+  top: 60rem;
+  margin-top: 5rem;
+  font-size: 6rem;
+  font-weight: 600;
+  animation-name: calendarappear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@media screen and (max-width: 62.5rem) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 44rem) {
+  html {
+    font-size: 45%;
+  }
+  .brand {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 25rem) {
+  html {
+    font-size: 30%;
+  }
+  .brand {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 19rem) {
+  html {
+    font-size: 20%;
+  }
+  .brand {
+    font-size: 4rem;
+  }
+}
