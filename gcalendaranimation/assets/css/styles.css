@@ -154,7 +154,7 @@ body {
 .brand {
   position: absolute;
   top: 60rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 6rem;
   font-weight: 600;
   animation-name: calendarappear;
